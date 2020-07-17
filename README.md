@@ -1,28 +1,31 @@
 
 # Tiny Neural Network
 
-> Simple and Modular Neural Network Library built in python built using just numpy.
+- Simple and Modular Neural Network Library built in python built using just numpy.
 
-> Keras like Network Initialization.
+- Keras like Network Initialization.
 
-> Easy to understand and build upon.
+- Easy to understand and build upon.
 
 ### Try the Network train and test on MNIST Dataset
 
 **[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SuyashMore/tinyNeuralNet/blob/master/tinyNN-v2.ipynb)**
 
-> Activation Functions
+- Activation Functions
 
-- Linear
-- Sigmoid
-- Relu
-- Softmax
+> Linear
 
-> Optimizer
-- Adam
+> Sigmoid
 
-> Loss Functions
-- Cross Entropy
+> Relu
+
+> Softmax
+
+- Optimizer
+> Adam
+
+- Loss Functions
+> Cross Entropy
 
 
 ---
