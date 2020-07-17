@@ -1,17 +1,15 @@
 
 # Tiny Neural Network
 
-> Simple and Modular Neural Network built in python built using just numpy
+> Simple and Modular Neural Network built in python built using just numpy.
 
-> Keras like Network Initialization
-
-> Built with Less than 150 lines of numpy code
+> Keras like Network Initialization.
 
 > Easy to understand and build upon.
 
-Try the Demo here on MNIST Dataset
+### Try the Network train and test on MNIST Dataset
 
-**[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)**
+**[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SuyashMore/tinyNeuralNet/blob/master/tinyNN-v2.ipynb)**
 
 > Activation Functions
 
