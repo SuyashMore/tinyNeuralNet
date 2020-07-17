@@ -30,16 +30,17 @@
 ## Network Initialization 
 
 ```python
-nn = NeuralNetwork()
+import tinyNN as tnn
+nn = tnn.NeuralNetwork()
 nn.addLayer(2)                       #Input Layer (2 inputs)
-nn.addLayer(6,activation_sigmoid)    #Hidden Dense Layer 
-nn.addLayer(6,activation_sigmoid)    #Hidden Dense Layer 
-nn.addLayer(6,activation_sigmoid)    #Hidden Dense Layer 
-nn.addLayer(3,activation_softmax)    #Output Layer 
+nn.addLayer(6,tnn.activation_sigmoid)    #Hidden Dense Layer 
+nn.addLayer(6,tnn.activation_sigmoid)    #Hidden Dense Layer 
+nn.addLayer(6,tnn.activation_sigmoid)    #Hidden Dense Layer 
+nn.addLayer(3,tnn.activation_softmax)    #Output Layer 
 nn.compile(lr=1)
 
 # To Train 
-nn.fit(X,Y,5)  #Train for 5 epochs
+nn.fit(Xs,Ys,epochs=5)  #Train for 5 epochs
 ```
 
 ---
@@ -54,8 +55,11 @@ nn.fit(X,Y,5)  #Train for 5 epochs
 - Clone this repo to your local machine using `https://github.com/SuyashMore/tinyNeuralNet`
 
 ---
+# Implementation Details
+- Weights and biases are stored as numpy Matrices
 
-## Activation Function Implementation
+
+## Sample Activation Function Implementation
 
 ```python
 def activation_sigmoid(X,der=False):
@@ -69,6 +73,13 @@ def activation_sigmoid(X,der=False):
 - **der** Flag Represents the derivative of the Activation Function used during BackProp
 
 ---
+
+## Reference
+
+- **[Andrew NG's Neural Networks and Deep Learning Course](https://www.coursera.org/learn/neural-networks-deep-learning)**
+
+- **[3blue1brown's Neural Network Series](https://www.3blue1brown.com/neural-networks)**
+
 
 ## License
 
