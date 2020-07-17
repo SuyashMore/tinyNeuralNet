@@ -13,19 +13,19 @@
 
 - Activation Functions
 
-> Linear
+   - Linear
 
-> Sigmoid
+    - Sigmoid
 
-> Relu
+    - Relu
 
-> Softmax
+    - Softmax
 
 - Optimizer
-> Adam
+    -  Adam
 
 - Loss Functions
-> Cross Entropy
+    - Cross Entropy
 
 
 ---
