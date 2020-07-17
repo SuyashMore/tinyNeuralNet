@@ -1,7 +1,7 @@
 
 # Tiny Neural Network
 
-> Simple and Modular Neural Network built in python built using just numpy.
+> Simple and Modular Neural Network Library built in python built using just numpy.
 
 > Keras like Network Initialization.
 
