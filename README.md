@@ -14,6 +14,8 @@
 
 **[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SuyashMore/tinyNeuralNet/blob/master/tinyNN-v2.ipynb)**
 
+[![NN](https://cdn-images-1.medium.com/max/1000/1*Sr53EAWCc284-MDgvO3ReA.jpeg)](#) 
+
 - Activation Functions
 
    - Linear
