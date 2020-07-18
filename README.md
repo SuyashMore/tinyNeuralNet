@@ -16,6 +16,7 @@
 
 [![NN](https://cdn-images-1.medium.com/max/1000/1*Sr53EAWCc284-MDgvO3ReA.jpeg)](#) 
 
+## Features
 - Activation Functions
 
    - Linear
