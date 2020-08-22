@@ -60,7 +60,10 @@ nn.fit(Xs,Ys,epochs=5)  #Train for 5 epochs
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/SuyashMore/tinyNeuralNet`
+- Clone this repo to your local machine using 
+```sh
+git clone https://github.com/SuyashMore/tinyNeuralNet
+```
 
 ---
 # Implementation Details
